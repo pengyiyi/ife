@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>任务六</title>
+    <style type="text/css">
+        .container div{
+            display: inline-block;
+            padding: 0 10px;
+            margin: 5px 5px 0 0;
+            height: 50px;
+            line-height: 50px;
+            background: #FF0000;
+            color:#FFFFFF;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
+     .found{
+         background: #FFFFFF;
+         color:#FF0000;
+     }
+     .container{
+         overflow: auto;
+     }
+    </style>
+</head>
+<body>
+    <textarea placeholder="请输入字符并用不同的符号进行分割" rows="1"></textarea>
+    <input type="button" value="插入" id="insert" />
+    <input type="text"  id="keyword" />
+    <input type="button" value="查询" id="search" />
+
+    <div id="container" class="container">
+			
+	</div>
+
+    <script src="js/task6.js">
+    </script>
+</body>
+</html>
